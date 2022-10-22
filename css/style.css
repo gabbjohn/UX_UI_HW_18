@@ -1,8 +1,25 @@
-nav{display: inline-block;
-vertical-align: top;}
-div{width: 23%;padding: 1% ;}
-nav{width: 23%;padding: 1%;}
-ul{margin: 50%;margin-left: auto;}
-section{text-align: center;}
-heroImg{height: 600px;padding: 25px;}
-::content{width: 500px; margin: 0 auto;}
+header{
+    background-color: #C9E4CA;
+}
+nav{
+    display: inline-block;
+    width: 23%;
+    padding: 1%;
+    vertical-align: top;
+}
+.logo{ 
+    width: 23%;
+    padding: 1% ;
+}
+ul{
+    margin: 50%;
+    margin-left: auto;
+}
+section{
+    text-align: center;
+}
+.heroImg{
+    height: 600px;
+    padding: 25px;
+}
+
