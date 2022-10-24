@@ -19,7 +19,38 @@ section{
     text-align: center;
 }
 .heroImg{
-    height: 600px;
-    padding: 25px;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 294px;
+    top: 175px;
 }
-
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+  }
+.grid-container {
+    display: grid;
+    grid-template-areas: 'UX/UI Non Profit Website Redesign UI Redesign Government Website UX Android Mobile App';
+  }
+  .item1 {
+    grid-area: UX Android Mobile App;
+  }
+  .grid-container {
+    display: grid;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-rows: 100px 300px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(35, 90, 108);
+      width: 33%;
+    }
+  }
